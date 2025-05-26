@@ -85,7 +85,7 @@ const DailyPlan = ({ tripData }) => {
                         {dayPlan.day}
                     </h3>
 
-                    {dayPlan.places.map((place, index) => {
+                    {dayPlan.places?.map((place, index) => {
                         const imageUrl = imageErrors[place.placeName]
                             ? 'https://placehold.co/400x250?text=Place+Image'
                             : placePhotos[place.placeName] || place.geoCoordinates?.imageUrl || 'https://placehold.co/400x250?text=Loading...';

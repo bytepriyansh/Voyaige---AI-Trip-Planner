@@ -15,7 +15,7 @@ const HotelRecommendation = ({ tripData }) => {
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
-                {hotels.map((hotel, index) => (
+                {hotels?.map((hotel, index) => (
                     <HotelCardItem hotel={hotel} key={index} />
                 ))}
             </div>
