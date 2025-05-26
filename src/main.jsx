@@ -12,7 +12,6 @@ import ViewTripDetails from './view-trip/[tripId]';
 import Features from './features';
 import Pricing from './pricing';
 import MyTrips from './my-trips';
-import ModernReviewInterface from './review/review-page';
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 
